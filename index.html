@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo sapp</title>
+    <link rel="stylesheet" href="design.css" />
+    <script defer type="module" src="script.js"></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo app</title>
-    <link rel="stylesheet" href="design.css">
-</head>
-
-<body>
+  <body>
     <h1>Today's List:</h1>
     <div class="paper">
-
-        <ul>
-            <li>
-                Take a shower
-            </li>
-            <li>
-                Clean the room
-            </li>
-            <li>
-                Study
-            </li>
-        </ul>
+      <ul id="list"></ul>
+      <div class="input-group">
+        <input type="text" id="item" />
+        <button id="submitbutton">add</button>
+      </div>
     </div>
-    <img src="cats.png" class="cat">
-
-</body>
-
+    <img src="cats.png" class="cat" />
+  </body>
 </html>
